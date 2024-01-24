@@ -13,8 +13,8 @@ The portal pages are using `$PORTAL_ACTION$`, `$PORTAL_REDIRURL$`, `$PORTAL_ZONE
 Authentication requests are send with `POST` requests to the firewall.
 
 The login sites are
-- **full responsive** and
-- **support all modern browsers**.
+- **Full responsive**
+- **Support all modern browsers**
 
 All pages have User/Password input written in HTML5 and inline css (in the `head` tag):
 
