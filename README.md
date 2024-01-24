@@ -1,13 +1,12 @@
 # :lock::door: [pfsense Captive Portal](https://doc.pfsense.org/index.php/Captive_Portal)
 Awesome pfsense login pages template for your captive portal!
 
-<center>
-	<img src="https://github.com/AlanMartines/pfSense-Captive-Portal/blob/main/screens/auth-login-password.png" alt="screenshot image of desktop" width="720px" />
-</center>
-<br>
-<center>
-	<img src="https://github.com/AlanMartines/pfSense-Captive-Portal/blob/main/screens/auth-voucher.png" alt="screenshot image of desktop" width="720px" />
-</center>
+<p align="center">
+  <img src="https://github.com/AlanMartines/pfSense-Captive-Portal/blob/main/screens/auth-login-password.png" alt="screenshot image of desktop" width="720px" />
+</p>
+<p align="center">
+  <img src="https://github.com/AlanMartines/pfSense-Captive-Portal/blob/main/screens/auth-voucher.png" alt="screenshot image of desktop" width="720px" />
+</p>
 
 Supports **latest version** of [pfsense 2.7.0](https://www.pfsense.org/download/).
 The portal pages are using `$PORTAL_ACTION$`, `$PORTAL_REDIRURL$`, `$PORTAL_ZONE$` and `$PORTAL_MESSAGE$` to get data from the firewall backend.
@@ -24,9 +23,6 @@ All pages have User/Password input written in HTML5 and inline css (in the `head
 - :x: **Error Page** with Error message
 
 This separations is provided and needed by pfsense backend, anyone who is familiar with captive portal and pfsense will know that. Feel free to set issues if you are not comfortable with that solution and if I can do better.
-
-The main plus point of this solutions is the look and feel of the login screen based on a **google material** thinking.
-Both background image and logo SVG can be changed as everything of the code.
 
 ## :earth_africa: Browsers support
 
