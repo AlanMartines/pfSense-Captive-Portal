@@ -1,7 +1,7 @@
-# :lock::door: [pfsense Captive Portal Login](https://doc.pfsense.org/index.php/Captive_Portal)
+# :lock::door: [pfsense Captive Portal](https://doc.pfsense.org/index.php/Captive_Portal)
 Awesome pfsense login pages template for your captive portal!
 
-<img src="https://github.com/felixhaeberle/pfsense-captive-portal/blob/master/screens/screen-desktop.jpg" alt="screenshot image of desktop" width="400" />
+<center><img src="https://github.com/alanmartines/pfsense-captive-portal/blob/master/screens/screen-desktop.jpg" alt="screenshot image of desktop" width="400" /></center>
 
 Supports **latest version** of [pfsense 2.4.4](https://www.pfsense.org/download/).
 The portal pages are using `$PORTAL_ACTION$` and `$PORTAL_REDIRURL$` to get data from the firewall backend.
@@ -33,7 +33,3 @@ Both background image and logo SVG can be changed as everything of the code.
 
 - [Official Pfsense Captive Portal Documentation](https://doc.pfsense.org/index.php/Captive_Portal)
 - [Official Pfsense Captive Portal Voucher Documentation](https://doc.pfsense.org/index.php/Captive_Portal_Vouchers)
-- [German HowTo Pfsense Captive Portal](http://www.nwlab.net/tutorials/pfSense/Captive-Portal.html)
-
-## :bird: Follow me
-Please follow me on [Twitter](https://twitter.com/felix_haeberle) if you want to get updates about this pfsense captive portal and web development.
