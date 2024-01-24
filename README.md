@@ -2,11 +2,11 @@
 Awesome pfsense login pages template for your captive portal!
 
 <center>
-	<img src="https://github.com/AlanMartines/pfSense-Captive-Portal/blob/main/screens/auth-login-password.png" alt="screenshot image of desktop" width="400" />
+	<img src="https://github.com/AlanMartines/pfSense-Captive-Portal/blob/main/screens/auth-login-password.png" alt="screenshot image of desktop" width="720px" />
 </center>
 <br>
 <center>
-	<img src="https://github.com/AlanMartines/pfSense-Captive-Portal/blob/main/screens/auth-voucher.png" alt="screenshot image of desktop" width="400" />
+	<img src="https://github.com/AlanMartines/pfSense-Captive-Portal/blob/main/screens/auth-voucher.png" alt="screenshot image of desktop" width="720px" />
 </center>
 
 Supports **latest version** of [pfsense 2.4.4](https://www.pfsense.org/download/).
