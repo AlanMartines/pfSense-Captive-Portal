@@ -14,7 +14,6 @@ The portal pages are using `$PORTAL_ACTION$`, `$PORTAL_REDIRURL$`, `$PORTAL_ZONE
 Authentication requests are send with `POST` requests to the firewall.
 
 The login sites are
-- based on **google material** thinking,
 - **full responsive** and
 - **support all modern browsers**.
 
