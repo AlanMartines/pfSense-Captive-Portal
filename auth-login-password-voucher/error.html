@@ -200,6 +200,7 @@
 	<script>
 		setTimeout(function () {
 			document.getElementById("error").remove();
+			document.getElementById("err").remove();
 		}, 4000);
 	</script>
 </head>
@@ -227,7 +228,8 @@
 				<input name="redirurl" type="hidden" value="$PORTAL_REDIRURL$">
 				<input name="zone" type="hidden" value="$PORTAL_ZONE$">
 				<input type="submit" name="accept" class="login login-submit" value="Login" id="login" disabled>
-				<p class="error" id="error">Falha no login.<br>$PORTAL_MESSAGE$</p>
+				<p class="error" id="error">Falha no login.</p>
+				<p class="error" id="err">$PORTAL_MESSAGE$</p>
 			</form>
 		</div>
 	</div>
