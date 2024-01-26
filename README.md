@@ -10,6 +10,9 @@ Awesome pfsense login pages template for your captive portal!
 <p align="center">
   <img src="https://github.com/AlanMartines/pfSense-Captive-Portal/blob/main/screens/auth-login-password-voucher.png" alt="screenshot image of desktop" width="720px" />
 </p>
+<p align="center">
+  <img src="https://github.com/AlanMartines/pfSense-Captive-Portal/blob/main/screens/termodeuso.png" alt="screenshot image of desktop" width="720px" />
+</p>
 
 Supports **latest version** of [pfsense 2.7.0](https://www.pfsense.org/download/).
 The portal pages are using `$PORTAL_ACTION$`, `$PORTAL_REDIRURL$`, `$PORTAL_ZONE$` and `$PORTAL_MESSAGE$` to get data from the firewall backend.
