@@ -1,5 +1,5 @@
 # :lock::door: [pfsense Captive Portal](https://doc.pfsense.org/index.php/Captive_Portal)
-Awesome pfsense login pages template for your captive portal!
+Modelos de páginas de login para captive portal no pfSense !
 
 <p align="center">
   <img src="https://github.com/AlanMartines/pfSense-Captive-Portal/blob/main/screens/auth-login-password.png" alt="screenshot image of desktop" width="720px" />
@@ -14,29 +14,28 @@ Awesome pfsense login pages template for your captive portal!
   <img src="https://github.com/AlanMartines/pfSense-Captive-Portal/blob/main/screens/termodeuso.png" alt="screenshot image of desktop" width="720px" />
 </p>
 
-Supports **latest version** of [pfsense 2.7.0](https://www.pfsense.org/download/).
-The portal pages are using `$PORTAL_ACTION$`, `$PORTAL_REDIRURL$`, `$PORTAL_ZONE$` and `$PORTAL_MESSAGE$` to get data from the firewall backend.
-Authentication requests are send with `POST` requests to the firewall.
+Compatível com a versão do [pfsense 2.7.0](https://www.pfsense.org/download/).
+As páginas do portal utilizam as variáveis `$PORTAL_ACTION$`, `$PORTAL_REDIRURL$`, `$PORTAL_ZONE$` e `$PORTAL_MESSAGE$` para obter dados do backend do firewall. As solicitações de autenticação são enviadas ao firewall por meio de requisições POST, garantindo uma integração eficaz entre a interface do portal e o sistema de autenticação do pfSense.
 
-The login sites are
-- **Full responsive**
-- **Support all modern browsers**
+As páginas de login são:
+- **Totalmente responsivas**
+- **Compatíveis com todos os navegadores modernos**
 
-All pages have User/Password input written in HTML5 and inline css (in the `head` tag):
+Todas as páginas têm campos de entrada de Usuário/Senha escritos em HTML5 e CSS inline (na tag `head`):
 
 - :arrow_right: **Login Page**
-- :arrow_left: **Logout Page** with Logout message
-- :x: **Error Page** with Error message
+- :arrow_left: **Logout Page** com mensagem de logout
+- :x: **Error Page** com mensagem de erro
 
-This separations is provided and needed by pfsense backend, anyone who is familiar with captive portal and pfsense will know that. Feel free to set issues if you are not comfortable with that solution and if I can do better.
+Essa separação é fornecida e necessária pelo backend do pfSense, qualquer pessoa familiarizada com o portal cativo e o pfSense saberá disso. Fique à vontade para levantar questões se não estiver confortável com essa solução ou se houver algo que eu possa melhorar.
 
-## :earth_africa: Browsers support
+## :earth_africa: Suporte dos navegadores
 
 | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>IE / Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Safari | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari-ios/safari-ios_48x48.png" alt="iOS Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>iOS Safari | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/samsung-internet/samsung-internet_48x48.png" alt="Samsung" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Samsung | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png" alt="Opera" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Opera |
 | --------- | --------- | --------- | --------- | --------- | --------- | --------- |
 | IE9, IE10, IE11, Edge| last versions| last versions| last versions| last versions| last versions| last versions
 
-## :link: A list of helpful links
+## :link: Uma lista de links úteis
 
 - [Official Pfsense Captive Portal Documentation](https://doc.pfsense.org/index.php/Captive_Portal)
 - [Official Pfsense Captive Portal Voucher Documentation](https://doc.pfsense.org/index.php/Captive_Portal_Vouchers)
