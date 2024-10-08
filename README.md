@@ -14,7 +14,7 @@ Modelos de páginas de login para captive portal no pfSense !
   <img src="https://github.com/AlanMartines/pfSense-Captive-Portal/blob/main/screens/termodeuso.png" alt="screenshot image of desktop" width="720px" />
 </p>
 
-Compatível com a versão do [pfsense 2.7.0](https://www.pfsense.org/download/).
+Validado na versão do [pfsense 2.7.0](https://www.pfsense.org/download/).
 As páginas do portal utilizam as variáveis `$PORTAL_ACTION$`, `$PORTAL_REDIRURL$`, `$PORTAL_ZONE$` e `$PORTAL_MESSAGE$` para obter dados do backend do firewall. As solicitações de autenticação são enviadas ao firewall por meio de requisições POST, garantindo uma integração eficaz entre a interface do portal e o sistema de autenticação do pfSense.
 
 As páginas de login são:
